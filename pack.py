@@ -16,7 +16,7 @@ def get_card():
     else:
         return RareCard(random.choice(rare))
     
-    def open_pack():
+def open_pack():
         """
         return 5 cards
         """
