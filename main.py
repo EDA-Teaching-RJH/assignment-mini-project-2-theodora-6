@@ -31,3 +31,6 @@ def main():
 
         else:
             print("Invalid choice")
+
+
+main(1)
