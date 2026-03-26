@@ -1,4 +1,3 @@
-print ("pack file is running")
 import random
 from card import Card, RareCard
 
