@@ -1,5 +1,5 @@
 import random
-from card import card, RareCard
+from card import Card, RareCard
 
 common = ["caitlin", "vi", "jinx", "echo", "jayce", "victor", "heimerdinger", "silco", "mel", "vander"]
 rare = ["beast vander", "glorious evolution victor", "powder", "monkey bomb", "arcane empath mel"]
@@ -12,7 +12,7 @@ def get_card():
     number = random.randint(1, 10)
 
     if number <= 7:
-        return card(random.choice(common), "common")
+        return Card(random.choice(common), "common")
     else:
         return RareCard(random.choice(rare))
     

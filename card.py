@@ -1,6 +1,6 @@
 # card.py
 
-class card:
+class Card:
     """
     basic card class for sorting name and rarity
     """
@@ -12,6 +12,6 @@ class card:
     def display(self):
             return self.name + " - " + self.rarity
 
-class RareCard(card):
+class RareCard(Card):
     def __init__(self, name):
         super().__init__(name, "rare")
