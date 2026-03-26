@@ -23,5 +23,6 @@ def open_pack():
         cards = []
 
         for i in range(3):
-            cards.append(get_card())
-            return cards
+            cards.append(get_card()) # adds card to list
+
+        return cards
