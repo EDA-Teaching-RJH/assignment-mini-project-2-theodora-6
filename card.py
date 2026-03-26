@@ -9,7 +9,7 @@ class card:
         self.name = name
         self.rarity = rarity
 
-        def display(self):
+    def display(self):
             return self.name + " - " + self.rarity
 
 class RareCard(card):

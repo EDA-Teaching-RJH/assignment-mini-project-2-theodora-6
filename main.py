@@ -33,4 +33,4 @@ def main():
             print("Invalid choice")
 
 
-main(1)
+main()

@@ -22,6 +22,6 @@ def open_pack():
         """
         cards = []
 
-        for i in range(5):
-            card.append(get_card())
+        for i in range(3):
+            cards.append(get_card())
             return cards
