@@ -6,3 +6,8 @@ def valid_name(name):
     """
 
     pattern = r"^[a-Za-z]+$"
+
+    if re.match(pattern, name):
+        return True
+    else:
+        return False
