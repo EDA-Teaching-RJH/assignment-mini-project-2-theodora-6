@@ -1,0 +1,19 @@
+import csv
+
+def save_cards(cards):
+    """
+    save cards to csv file
+    """
+
+    file = open("collection.csv", "a", newline="")
+    writer = csv.writer(file)
+
+    for card in cards:
+        writer.writerow([card.name, card.rarity])
+
+    file.close()
+
+def load_cards():
+    """
+    load cards from csv
+    """
