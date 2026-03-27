@@ -5,9 +5,7 @@ def valid_name(name):
     only allows letters (regex)
     """
 
-    pattern = r"^[a-Za-z]+$"
-
-    if re.match(pattern, name):
-        return True
-    else:
+    if not isinstance(name, str):
         return False
+    
+    return bool(re.match(r"^[A-Za-z]+$", name))
