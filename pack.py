@@ -1,5 +1,5 @@
 import random
-from project.card import Card, RareCard
+from card import Card, RareCard
 
 common = ["caitlin", "vi", "jinx", "echo", "jayce", "victor", "heimerdinger", "silco", "mel", "vander"]
 rare = ["beast vander", "glorious evolution victor", "powder", "monkey bomb", "arcane empath mel"]
