@@ -9,7 +9,7 @@ def save_cards(cards):
     writer = csv.writer(file)
 
     for Card in cards:
-        writer.writerow([card.name, card.rarity])
+        writer.writerow([Card.name, Card.rarity])
 
     file.close()
 

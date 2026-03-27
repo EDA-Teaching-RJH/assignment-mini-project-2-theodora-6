@@ -27,4 +27,9 @@ def test_invalid_name():
 def test_empty_name():
     assert not valid_name("")
 
+def test_save_and_load():
+    cards = open_pack()
+    save_cards(cards)
 
+    loaded = load_cards()
+    assert len(loaded) > 0
