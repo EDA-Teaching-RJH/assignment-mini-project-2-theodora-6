@@ -33,3 +33,8 @@ def test_save_and_load():
 
     loaded = load_cards()
     assert len(loaded) > 0
+
+def test_multiple_packs():
+    for i in range(5):
+        cards = open_pack()
+        assert len(cards) == 3
