@@ -1,5 +1,5 @@
-from pack import open_pack
-from file_handler import save_cards, load_cards
+from project.pack import open_pack
+from project.file_handler import save_cards, load_cards
 
 def main():
 
