@@ -23,3 +23,8 @@ def test_valid_name():
 def test_invalid_name():
     assert not valid_name("Jinx123")
     assert not valid_name("123")
+
+def test_empty_name():
+    assert not valid_name("")
+
+
